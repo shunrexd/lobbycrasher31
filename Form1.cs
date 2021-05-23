@@ -44,7 +44,7 @@ namespace lobbycrasher31
 
 
 					await LCU.HttpDelete("/lol-lobby/v2/lobby");
-					await LCU.HttpPostJson("/lol-lobby/v2/matchmaking/quick-search", "{\"queueId\":2000}");
+					await LCU.HttpPostJson("/lol-lobby/v2/matchmaking/quick-search", "{\"queueId\":1110}");
 				}
 				}
 		}
