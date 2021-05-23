@@ -9,7 +9,6 @@ using System.Net;
 using Microsoft.Win32;
 using System.Net.Security;
 using System.IO;
-using lobbycrasher31.webhook;
 using Newtonsoft.Json;
 using System.Diagnostics;
 
