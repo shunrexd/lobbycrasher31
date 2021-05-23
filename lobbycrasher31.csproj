@@ -221,34 +221,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\Asm.cs" />
-    <Compile Include="HwId.cs" />
     <Compile Include="LCUClient.cs" />
     <Compile Include="LCUListener.cs" />
-    <Compile Include="notifique-me\INotificavel.cs" />
-    <Compile Include="notifique-me\Notificacao.cs" />
-    <Compile Include="notifique-me\Notificar.cs" />
-    <Compile Include="notifique-me\Notificavel.cs" />
-    <Compile Include="notifique-me\Validacoes\Boolean.cs" />
-    <Compile Include="notifique-me\Validacoes\DateTime.cs" />
-    <Compile Include="notifique-me\Validacoes\Decimal.cs" />
-    <Compile Include="notifique-me\Validacoes\Double.cs" />
-    <Compile Include="notifique-me\Validacoes\Float.cs" />
-    <Compile Include="notifique-me\Validacoes\Int.cs" />
-    <Compile Include="notifique-me\Validacoes\Object.cs" />
-    <Compile Include="notifique-me\Validacoes\String.cs" />
     <Compile Include="ProcessCommandLine.cs" />
     <Compile Include="ProcessHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RiotClient.cs" />
-    <Compile Include="Summoner.cs" />
-    <Compile Include="webhook\DiscordEmoji.cs" />
-    <Compile Include="webhook\DiscordFile.cs" />
-    <Compile Include="webhook\DiscordMessage.cs" />
-    <Compile Include="webhook\DiscordMessageEmbed.cs" />
-    <Compile Include="webhook\DiscordWebhookClient.cs" />
-    <Compile Include="webhook\DiscordWebhookClientException.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
